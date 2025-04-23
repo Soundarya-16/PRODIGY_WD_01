@@ -1,0 +1,56 @@
+/* Reset styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: transparent;
+    padding: 15px 0;
+    transition: background 0.3s ease;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s ease;
+}
+
+/* Hover effect on menu items */
+nav ul li a:hover {
+    color: yellow;
+}
+
+/* Change navbar background when scrolled */
+.scrolled {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/* Page Content */
+.content {
+    padding: 80px 20px;
+    text-align: center;
+    color: black;
+}
+
+h1, h2 {
+    margin: 50px 0;
+}
